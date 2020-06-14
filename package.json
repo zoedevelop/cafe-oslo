@@ -1,0 +1,11 @@
+{
+  "name": "cafe-oslo",
+  "version": "1.0.0",
+  "description": "proyecto de practica de curso de diseño web responsive",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sebastian camilo velasquez",
+  "license": "ISC"
+}
