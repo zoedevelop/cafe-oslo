@@ -14,7 +14,7 @@
 body{
 
     min-width: 320px;
-    height: 3500px;
+    /* height: 3500px; */
     /* background: url('../Layout/Proyecto_final_movil.png'); */
     background-repeat: no-repeat;
     background-position: top center;
@@ -134,7 +134,7 @@ header{
 main{
     position: relative;
     min-width: 340px;
-    min-height: 2905px;
+    /* min-height: 2905px; */
     margin: auto;
     background-color: var(--blanco);
     /* opacity: .5; */
@@ -154,7 +154,6 @@ article{
     width: cal(100% - 16px);
     height: 269px;
     padding: 15px 16px;
-    background-color: blue;
 }
 article h2{
     text-transform: uppercase;
@@ -169,12 +168,12 @@ article p{
     font-weight: 400;
     line-height: 25px;
 }
-.domingos{
+.domingos , .ubicacion{
     padding-top: 16px;
     color: var(--beigch);
     background: var(--rojo);
 }
-.fiestas{
+.fiestas , .escribenos{
     padding-top: 16px;
     color: var(--rojo);
     background: var(--beigch);
@@ -215,11 +214,11 @@ aside{
     position: relative;
     min-width: 320px;
     height: 1290px;
-    background:steelblue;
+
 }
 aside ul{
     position: relative;
-    background:var(--beigch);
+    background:var(--blanco);
     min-width: 320px;
     height: 1290px;
 
@@ -248,6 +247,16 @@ aside ul li img{
     height: 80px;
     /* margin: 15px 0; */
 }
+section .contactanos{
+    min-width: 320px;
+    height: 540px;
+}
+.escribenos p span{
+    font-weight: bolder;
+}
+.ubicacion p span{
+    font-weight: bolder;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                              fin de contenido                              */
@@ -259,11 +268,14 @@ aside ul li img{
 
 footer{
     position: relative;
-    max-width: 340px;
-    min-height: 105px;
+    min-width: 340px;
+    height: 100px;
+    line-height: 100px;
     margin: auto;
-    background-color: var(--gris);
-    opacity: .5;
+    background-color: black;
+    opacity: .8;
+    color: var(--beigch);
+    text-align: center;
 }
 /* -------------------------------------------------------------------------- */
 /*                                fin de footer                               */
