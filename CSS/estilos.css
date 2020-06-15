@@ -1,3 +1,270 @@
+:root{
+    --rojo: #d03b40;
+    --beigch: #ded6c0;
+    --blanco: #f5f0ed;
+    --gris: #241d1b;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                estilos guias                               */
+/* -------------------------------------------------------------------------- */
+*{
+    box-sizing: border-box;
+}
 body{
+
+    min-width: 320px;
+    height: 3500px;
+    /* background: url('../Layout/Proyecto_final_movil.png'); */
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    font-family: 'Open Sans', sans-serif;
+    /* opacity: .5; */
+}
+
+/* -------------------------------------------------------------------------- */
+/*                            fin de estilos guias                            */
+/* -------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+/*                             estilos espeficicos del diseños                */
+/* -------------------------------------------------------------------------- */
+
+h1{
+    font-size: 44px;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+}
+.btn{
+    font-size: 14px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                    fin de estilos especificos del diseño                   */
+/* -------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   header                                   */
+/* -------------------------------------------------------------------------- */
+
+header{
+    min-width: 320px;
+    margin: auto;
+    min-height: 490px;
+    background: url(../IMG/Fondo1.jpg);
+    /* opacity: .5; */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: var(--blanco);
+}
+.navbar{
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    /* background-color: aqua; */
+    /* opacity: .5; */
     
 }
+.navbar ul{
+    height: 70px;
+    line-height: 70px;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.navbar ul li a img{
+    width: 170px;
+    height: 50px;
+}
+
+.navbar ul li a i{
+    padding: 10px 10px;
+    font-size: 35px;
+    /* line-height: 75px; */
+    color: var(--blanco);
+    background: var(--rojo);
+
+}
+
+.brand-logo{
+   text-align: center;
+   height: 275px;
+   margin: 0 auto;
+   position: absolute;
+   bottom: 110px;
+   /* left: 30px; */
+   text-align: center;
+   padding: 0 30px;
+}
+.brand-logo h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-bottom: 2px solid white;
+    padding-bottom: 40px;
+    /* border-bottom-width: 1px; */
+    margin: 15px;
+    color: var(--blanco);
+}
+.brand-logo p{
+    line-height: 25px;
+    font-weight: 300;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  contenido                                 */
+/* -------------------------------------------------------------------------- */
+
+main{
+    position: relative;
+    min-width: 340px;
+    min-height: 2905px;
+    margin: auto;
+    background-color: var(--blanco);
+    /* opacity: .5; */
+}
+.servicios{
+    width: 100%;
+    height: 535px;
+    /* background: #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article{
+    text-align: center;
+    position: relative;
+    width: cal(100% - 16px);
+    height: 269px;
+    padding: 15px 16px;
+    background-color: blue;
+}
+article h2{
+    text-transform: uppercase;
+    position: relative;
+    top: 25px;
+    font-weight: bolder;
+}
+
+article p{
+    position: relative;
+    top: 50px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.domingos{
+    padding-top: 16px;
+    color: var(--beigch);
+    background: var(--rojo);
+}
+.fiestas{
+    padding-top: 16px;
+    color: var(--rojo);
+    background: var(--beigch);
+}
+
+.descubrenos{
+    position: relative;
+    min-width: 320px;
+    min-height: 405px;
+    background: url('../IMG/Fondo2.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    color: var(--beigch);
+}
+.descubrenos h2{
+    border-bottom: 2px solid white;
+    padding-bottom: 40px;
+}
+.descubrenos p{
+    line-height: 25px;
+    font-weight: 300;
+}
+
+article a {
+    position: relative;
+    top: 115px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 15px;
+    border: 1px solid var(--beigch);
+}
+
+aside{
+    position: relative;
+    min-width: 320px;
+    height: 1290px;
+    background:steelblue;
+}
+aside ul{
+    position: relative;
+    background:var(--beigch);
+    min-width: 320px;
+    height: 1290px;
+
+}
+
+aside ul li{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: cal(100%-32px);
+    height: 322px;
+    /* background: white; */
+    margin: 0 16px;
+    padding: 15px;
+    color: var(--gris);
+}
+aside ul li h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 15px 0;
+}
+aside ul li img{
+    width: 80px;
+    height: 80px;
+    /* margin: 15px 0; */
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              fin de contenido                              */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   footer                                   */
+/* -------------------------------------------------------------------------- */
+
+footer{
+    position: relative;
+    max-width: 340px;
+    min-height: 105px;
+    margin: auto;
+    background-color: var(--gris);
+    opacity: .5;
+}
+/* -------------------------------------------------------------------------- */
+/*                                fin de footer                               */
+/* -------------------------------------------------------------------------- */
