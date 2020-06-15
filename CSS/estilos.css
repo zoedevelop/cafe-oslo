@@ -133,7 +133,7 @@ header{
 
 main{
     position: relative;
-    min-width: 340px;
+    min-width: 320px;
     /* min-height: 2905px; */
     margin: auto;
     background-color: var(--blanco);
@@ -268,7 +268,7 @@ section .contactanos{
 
 footer{
     position: relative;
-    min-width: 340px;
+    min-width: 320px;
     height: 100px;
     line-height: 100px;
     margin: auto;
